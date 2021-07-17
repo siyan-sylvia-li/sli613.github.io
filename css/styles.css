@@ -607,7 +607,7 @@ p {
 }
 @media (min-width:992px) {
   .line-content-education {
-    min-height: 150px;
+    min-height: 100px;
   }
 }
 .graduation-time,
