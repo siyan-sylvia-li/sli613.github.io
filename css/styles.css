@@ -535,8 +535,9 @@ p {
   background: #fafafa;
 }
 .timeline-progress {
-  background: url('../img/timeline-bg.png') repeat-x center center fixed #249991;
+  background: url('../img/timeline-bg.png') fixed #249991;
   position: relative;
+  background: url('../img/timeline-bg.png') fixed #249991;
 }
 .timeline-progress:before {
   content: '';
@@ -552,6 +553,7 @@ p {
 .timeline-point:before {
   background: url('../img/progress-point.png') center center;
   background-size: 400px 500px;
+  position: absolute;
 }
 .timeline-education:before {
   background: url('../img/progress-education4.png') no-repeat center center;
