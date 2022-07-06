@@ -176,3 +176,13 @@ $(window).load(function(){
   });
 });
 })(jQuery);
+
+
+// Play audio
+
+const audio = new Audio('audio/name.mp3')
+const button = document.getElementById('audio-name')
+
+button.addEventListener('click', (e) => {
+  audio.play()
+})

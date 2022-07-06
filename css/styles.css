@@ -519,7 +519,7 @@ p {
 /* ==========================================================
 ! 8. Vertical Timeline
 ========================================================== */
-/*.timeline-wrap {
+.timeline-wrap {
   position: relative;
   z-index: 88;
 }
@@ -537,7 +537,6 @@ p {
 .timeline-progress {
   background: url('../img/timeline-bg.png') fixed #249991;
   position: relative;
-  background: url('../img/timeline-bg.png') fixed #249991;
 }
 .timeline-progress:before {
   content: '';
@@ -600,7 +599,7 @@ p {
 }
 .line-content p {
   font-size: 16px;
-}*/
+}
 /* ==========================================================
 ! 9. Section: Education and Work Experience
 ========================================================== */
